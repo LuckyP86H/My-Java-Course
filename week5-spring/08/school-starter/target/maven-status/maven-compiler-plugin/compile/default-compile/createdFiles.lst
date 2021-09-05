@@ -1,0 +1,6 @@
+META-INF/spring-configuration-metadata.json
+com/paul/starter/SchoolProperties.class
+com/paul/starter/SchoolImpl.class
+com/paul/starter/SchoolAutoConfiguration.class
+com/paul/starter/Klass.class
+com/paul/starter/School.class

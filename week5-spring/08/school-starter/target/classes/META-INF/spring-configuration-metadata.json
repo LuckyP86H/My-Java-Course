@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "paul.school",
+      "type": "com.paul.starter.SchoolProperties",
+      "sourceType": "com.paul.starter.SchoolProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "paul.school.klass",
+      "type": "com.paul.starter.Klass",
+      "sourceType": "com.paul.starter.SchoolProperties"
+    },
+    {
+      "name": "paul.school.name",
+      "type": "java.lang.String",
+      "sourceType": "com.paul.starter.SchoolProperties"
+    }
+  ],
+  "hints": []
+}
