@@ -20,6 +20,7 @@ import javax.sql.DataSource;
 @EnableTransactionManagement
 @EnableJpaRepositories(entityManagerFactoryRef = "readEntityManagerFactory", transactionManagerRef = "readTransactionManager", basePackages = {"domain.repository"})
 public class ReadJpaDataSourceConfig {
+
     @Autowired
     private JpaProperties jpaProperties;
 
@@ -33,7 +34,7 @@ public class ReadJpaDataSourceConfig {
         return builder
                 .dataSource(readDataSource)
                 .properties(jpaProperties.getProperties())
-                .packages("com.xianyanyang")
+                .packages("com.paulxu")
                 .persistenceUnit("readPersistenceUnit")
                 .build();
     }
