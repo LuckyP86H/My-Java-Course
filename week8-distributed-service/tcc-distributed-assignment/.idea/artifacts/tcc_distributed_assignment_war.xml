@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tcc-distributed-assignment:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>tcc-distributed-assignment</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="tcc-distributed-assignment-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="tcc-distributed-assignment:war exploded" />
+    </root>
+  </artifact>
+</component>
