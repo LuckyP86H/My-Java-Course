@@ -410,17 +410,9 @@ MVCC：MVCC解决的是不同的事务之间读写版本冲突的问题；MVCC�
 
 ![](./pic/分布式消息队列.png)
 
-{::options parse_block_html="true" /}.
-
-<div class="panel panel-info">
-**Note**
-{: .panel-heading}
-<div class="panel-body">
-
+> **_^_^_**
 非常感谢秦老师，助教和宇㬢班班！
-
-</div>
-</div>
+>
 
 
 
